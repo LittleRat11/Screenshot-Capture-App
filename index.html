@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screenshot Capture App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- *html2canvas -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="container">
+            <h1>One Piece</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusantium eligendi cum explicabo voluptatem eaque ut blanditiis possimus facere sint similique facilis, sed autem esse temporibus, voluptate cumque veniam enim.
+            </p>
+            <img src="one-piece.jpeg" alt="">
+        </div>
+        <div id="preview-container"></div>
+    </div>
+    <div class="buttons">
+        <button id="capture-btn">Capture Screenshot</button>
+        <a id="download-btn" class="hide">Download ScreenShot</a>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
